@@ -1,7 +1,7 @@
 # Health-Care
 
-<p align="center"><img src="![Uploading Picsart_23-08-20_20-07-45-587.jpg…]()
-" /></p> nor <p style="align:center"><img src="image" /></p>
+<div style="text-align:center"><img src="![Uploading Picsart_23-08-20_20-07-45-587.jpg…]()
+" /></div>.
 
 "healthcare journey with our meticulously designed app, where innovation meets well-being. Developed using the robust capabilities of Java, Firebase, XML, and SQL, this app redefines the way you engage with your health.
 
