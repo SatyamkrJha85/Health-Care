@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41A3C4"
+    tools:context=".Activity.CartlabActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deliver Location : Bengal and Bihar"
+        android:id="@+id/heading_text"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="12dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab Test and Package"
+        android:id="@+id/text_view_cart_title"
+        android:gravity="center"
+        android:layout_below="@id/heading_text"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="12dp"
+        />
+
+    <ImageView
+        android:id="@+id/list_view_cart"
+        android:layout_width="match_parent"
+        android:src="@drawable/maint"
+        android:layout_height="300dp"
+        android:foregroundGravity="center"
+        android:layout_below="@id/text_view_cart_title"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maintenence Break: 1298/-"
+        android:id="@+id/cart_total_cost"
+        android:gravity="center"
+        android:layout_below="@id/list_view_cart"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="12dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@id/cart_total_cost"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginRight="130dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Date"
+                android:id="@+id/select_date"
+                android:textColor="@color/white"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="5dp"/>
+            <Button
+                style="?android:spinnerStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22/10/27"
+                android:layout_margin="5dp"
+                android:id="@+id/select_date_btn_cart"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginRight="80dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Time"
+                android:id="@+id/select_time"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"/>
+            <Button
+                style="?android:spinnerStyle"
+                android:background="@drawable/custom_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 AM"
+                android:layout_margin="5dp"
+                android:id="@+id/select_time_btn_cart"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Checkout"
+        android:background="@drawable/corner_radius"
+        android:layout_margin="15dp"
+        android:id="@+id/checkout_btn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Click to Back"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/corner_radius"
+        android:layout_margin="15dp"
+        android:id="@+id/back_btn_cart"/>
+
+
+</RelativeLayout>

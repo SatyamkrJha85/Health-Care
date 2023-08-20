@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#A189E4"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DoctorDetailsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor Details"
+        android:id="@+id/heading_text"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="12dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="default text"
+        android:id="@+id/text_view_dd_title"
+        android:gravity="center"
+        android:layout_below="@id/heading_text"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="12dp"
+        />
+
+    <ListView
+        android:id="@+id/list_view_dd"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:foregroundGravity="center"
+        android:layout_above="@id/back_btn1"
+        android:layout_below="@id/text_view_dd_title"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Back To Find Doctor"
+        android:background="@drawable/corner_radius"
+        android:layout_margin="15dp"
+        android:id="@+id/back_btn1"/>
+
+
+</RelativeLayout>

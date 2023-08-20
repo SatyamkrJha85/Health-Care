@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doctor_bg"
+    tools:context=".Activity.LabTestActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deliver Location : Bengal and Bihar"
+        android:id="@+id/heading_text"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="22dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab Test and Package"
+        android:id="@+id/text_view_dd_title"
+        android:gravity="center"
+        android:layout_below="@id/heading_text"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="12dp"
+        />
+
+    <ListView
+        android:background="#6E59BE"
+        android:id="@+id/list_view_lab"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:foregroundGravity="center"
+        android:layout_below="@id/text_view_dd_title"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="GO TO CART"
+        android:background="@drawable/corner_radius"
+        android:layout_margin="15dp"
+        android:id="@+id/gotocart_btn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Click to Back"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/corner_radius"
+        android:layout_margin="15dp"
+        android:id="@+id/back_btn_test"/>
+</RelativeLayout>

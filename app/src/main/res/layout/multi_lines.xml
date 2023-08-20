@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_margin="3dp"
+    android:background="@drawable/custom_edittext"
+    android:layout_height="300dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="text_view"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/line_a"
+        android:textSize="23sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text_view"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:id="@+id/line_b"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="textview"
+           android:layout_margin="10dp"
+           android:gravity="center"
+           android:textSize="22dp"
+           android:id="@+id/line_c"
+           android:textColor="#fff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="textview"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:id="@+id/line_d"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:textColor="#fff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="textview"
+            android:id="@+id/line_e"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="end"
+            android:textSize="22dp"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
